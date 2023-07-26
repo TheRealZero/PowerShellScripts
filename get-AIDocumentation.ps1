@@ -2,7 +2,7 @@
 Function Get-AIDocumentation{
 param(
     [Parameter(Mandatory=$false)]
-    [string]$openai_api_key="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",
+    [string]$openai_api_key="",
     [Parameter(Mandatory=$false)]
     [string]$openai_engine = "code-davinci-002",
     [Parameter(Mandatory=$false)]
