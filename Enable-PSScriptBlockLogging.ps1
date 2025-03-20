@@ -12,7 +12,7 @@ $null = New-Item $basePath -Force
 
 # Create the correct properties      
 New-ItemProperty $basePath -Name "EnableScriptBlockLogging" -PropertyType Dword 
-
+Write-Verbose "Script lock logging enabled"
 } 
 
 # These can be enabled (1) or disabled (0) by changing the value 
